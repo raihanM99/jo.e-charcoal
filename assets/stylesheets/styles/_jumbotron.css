@@ -1,0 +1,41 @@
+section#jumbotron * {
+  margin: 0;
+}
+
+section#jumbotron .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 72px;
+}
+
+section#jumbotron .wrapper .heading h1 {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+}
+
+section#jumbotron .wrapper .heading h1:first-child {
+  color: var(--secondary-color);
+}
+
+section#jumbotron .wrapper .heading h1:nth-child(2) {
+  margin-top: 10px;
+  color: var(--primary-color);
+}
+
+section#jumbotron .wrapper .heading .ctas {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin-top: 178px;
+}
+
+section#jumbotron .image {
+  background-image: url("/assets/images/briquettes-wp\ 1.jpg");
+  width: 436px;
+  height: 645px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100px 0px;
+  box-shadow: 8px 6px 18px 0px rgba(113, 113, 113, 0.45);
+}

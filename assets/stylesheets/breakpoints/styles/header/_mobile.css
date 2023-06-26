@@ -1,0 +1,46 @@
+@media screen and (max-width: 767px) {
+  header {
+    padding: 0 30px 0 30px;
+    height: 60px;
+  }
+
+  header button.hamburger {
+    display: inline-block;
+    z-index: 210;
+  }
+
+  header #brand img {
+    width: 170px;
+    height: auto;
+  }
+
+  header nav ul {
+    position: absolute;
+    flex-direction: column;
+    left: 50%;
+    top: -260px;
+    transform: translateX(-50%);
+    width: 100vw;
+    gap: unset;
+    padding: unset;
+    background-color: var(--sand);
+    z-index: 200;
+    transition: top 0.7s;
+  }
+
+  header nav ul.is-active {
+    top: 60px;
+  }
+
+  header nav ul li {
+    width: inherit;
+    text-align: center;
+    height: 40px;
+  }
+
+  header nav ul li a {
+    height: inherit;
+    display: inline-flex;
+    align-items: center;
+  }
+}

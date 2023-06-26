@@ -1,0 +1,42 @@
+footer {
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+footer .logo .copyright {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Source Sans', sans-serif;
+  color: var(--text-color);
+}
+
+footer ul.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+footer ul.information li a {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  font-family: 'Source Sans', sans-serif;
+  align-items: center;
+  color: var(--primary-color);
+  width: 300px;
+}
+
+footer ul.information li a img {
+  width: 34px;
+}

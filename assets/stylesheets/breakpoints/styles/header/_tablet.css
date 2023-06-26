@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header {
+    padding: 0 100px 0 100px;
+    height: 60px;
+  }
+
+  header #brand img {
+    width: 200px;
+    height: auto;
+  }
+
+  header nav ul {
+    left: 50%;
+    top: -260px;
+    gap: 18px;
+    padding: unset;
+    background-color: var(--sand);
+  }
+}

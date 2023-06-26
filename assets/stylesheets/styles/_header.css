@@ -1,0 +1,33 @@
+header {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header button.hamburger {
+  display: none;
+}
+
+header #brand img {
+  height: 55px;
+  width: 252px;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  gap: 40px;
+  font-size: 18px;
+  font-family: "Source Sans", sans-serif;
+}
+
+header nav ul li.active {
+  color: #c30;
+  font-weight: 600;
+}
