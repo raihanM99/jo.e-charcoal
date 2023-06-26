@@ -1,8 +1,8 @@
-@import url("/assets/stylesheets/_reset.css");
-@import url("/assets/stylesheets/_normalize.css");
-@import url("/assets/stylesheets/_root.css");
-@import url("/assets/stylesheets/_font.css");
-@import url("/assets/stylesheets/_global.css");
+@import url("./assets/stylesheets/_reset.css");
+@import url("./assets/stylesheets/_normalize.css");
+@import url("./assets/stylesheets/_root.css");
+@import url("./assets/stylesheets/_font.css");
+@import url("./assets/stylesheets/_global.css");
 @import url("./styles/index.css");
 @import url("./breakpoints/index.css");
 
