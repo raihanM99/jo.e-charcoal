@@ -1,0 +1,10 @@
+:root {
+  --primary-color: #CC3300;
+  --secondary-color: #8E4956;
+  --primary-gradient: linear-gradient(135deg, var(--secondary-color) 30.96%, var(--ivory) 70.74%);
+  --secondary-gradient: linear-gradient(135deg, var(--secondary-color) 0.03%, var(--redwood) 33.97%, var(--ivory) 70.74%);
+  --text-color: #717171;
+  --redwood: #AA614B;
+  --ivory: #EDD5CA;
+  --sand: #F7E9DA;
+}
