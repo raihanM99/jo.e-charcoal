@@ -31,7 +31,7 @@ section#jumbotron .wrapper .heading .ctas {
 }
 
 section#jumbotron .image {
-  background-image: url("/assets/images/briquettes-wp\ 1.jpg");
+  background-image: url("./assets/images/briquettes-wp\ 1.jpg");
   width: 436px;
   height: 645px;
   background-position: center;

@@ -27,7 +27,7 @@ section#description article {
 }
 
 section#description article div.image {
-  background-image: url("/assets/images/briquettes-wp\ 2.jpg");
+  background-image: url("./assets/images/briquettes-wp\ 2.jpg");
   width: 436px;
   height: 645px;
   background-position: center;
