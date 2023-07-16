@@ -1,0 +1,27 @@
+@media screen and (max-width: 767px) {
+  section#description {
+    padding: 10px 30px 0 30px;
+    font-size: 14px;
+  }
+
+  section#description h2 {
+    font-size: 20px;
+  }
+
+  section#description article div.image {
+    width: 80vw;
+    position: absolute;
+  }
+
+  section#description article div.image.aos-animate {
+    opacity: 0.1;
+  }
+
+  section#description article dl dt {
+    font-size: 16px;
+  }
+
+  section#description article dl dd {
+    font-size: 14px;
+  }
+}

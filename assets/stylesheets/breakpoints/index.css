@@ -1,2 +1,17 @@
 @import url("./styles/header/index.css");
 @import url("./styles/jumbotron/index.css");
+@import url("./styles/description/index.css");
+@import url("./styles/products/index.css");
+@import url("./styles/gallery/index.css");
+@import url("./styles/footer/index.css");
+
+@media screen and (max-width: 767px) {
+  .underlined::after {
+    top: calc(46px / 2);
+    width: calc(138px / 2);
+  }
+
+  .underlined.underline-left::after {
+    top: calc(36px / 2);
+  }
+}

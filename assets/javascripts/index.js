@@ -24,4 +24,8 @@ $(function() {
   }
 
   AOS.init();
+
+  if (window.innerWidth <= 767) {
+    $("section#description article div.image").removeAttr("data-aos-anchor-placement");
+  }
 })

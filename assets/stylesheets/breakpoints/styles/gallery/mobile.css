@@ -1,0 +1,23 @@
+@media screen and (max-width: 767px) {
+  section#gallery {
+    padding: 10px 30px 102px 30px;
+    font-size: 14px;
+  }
+
+  section#gallery h2 {
+    font-size: 18px;
+  }
+
+  section#gallery ul.images {
+    margin-top: calc(112px / 2);
+    gap: unset;
+    width: 80vw;
+    padding: unset;
+  }
+
+  section#gallery ul.images .image-list img {
+    width: calc(436px / 2);
+    height: calc(645px / 2);
+    object-fit: cover;
+  }
+}
