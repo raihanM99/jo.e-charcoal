@@ -14,4 +14,8 @@
   .underlined.underline-left::after {
     top: calc(36px / 2);
   }
+
+  [data-aos] {
+    transform: translate3d(10px,0,0);
+  }
 }
