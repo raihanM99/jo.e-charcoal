@@ -12,10 +12,16 @@
   }
 
   .underlined.underline-left::after {
-    top: calc(36px / 2);
+    top: calc(36px / 1.5);
   }
 
   [data-aos] {
-    transform: translate3d(10px,0,0);
+    transform: translate3d(10px, 0, 0);
+  }
+
+  .button {
+    padding: 6px;
+    font-size: 14px;
+    gap: unset;
   }
 }

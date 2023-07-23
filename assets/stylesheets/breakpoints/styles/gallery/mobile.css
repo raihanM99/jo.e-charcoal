@@ -2,6 +2,7 @@
   section#gallery {
     padding: 10px 30px 102px 30px;
     font-size: 14px;
+    height: calc(1024px / 2.5);
   }
 
   section#gallery h2 {

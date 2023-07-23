@@ -5,6 +5,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 header,
@@ -31,6 +32,7 @@ footer {
   font-size: 21px;
   font-family: "Source Sans", sans-serif;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .button-secondary {
