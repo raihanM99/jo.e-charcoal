@@ -64,6 +64,6 @@ $(function () {
   });
 
   $(".order-button").click(function () {
-    window.open("https://wa.me/085792138348", "_blank");
+    window.open("https://wa.me/6285792138348", "_blank");
   });
 });
